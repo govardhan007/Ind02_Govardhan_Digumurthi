@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4884B3E427CE8C3A00CB2C8D /* shuffling-cards-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4884B3E327CE8C3A00CB2C8D /* shuffling-cards-5.mp3 */; };
 		48B3A5B027CE766E00E27BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B3A5AF27CE766E00E27BC0 /* AppDelegate.swift */; };
 		48B3A5B227CE766E00E27BC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B3A5B127CE766E00E27BC0 /* SceneDelegate.swift */; };
 		48B3A5B427CE766E00E27BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B3A5B327CE766E00E27BC0 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4884B3E327CE8C3A00CB2C8D /* shuffling-cards-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shuffling-cards-5.mp3"; sourceTree = "<group>"; };
 		48B3A5AC27CE766E00E27BC0 /* Ind02_Govardhan_Digumurthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind02_Govardhan_Digumurthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B3A5AF27CE766E00E27BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48B3A5B127CE766E00E27BC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4884B3E227CE8C0A00CB2C8D /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				4884B3E327CE8C3A00CB2C8D /* shuffling-cards-5.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
 		48B3A5A327CE766E00E27BC0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		48B3A5AE27CE766E00E27BC0 /* Ind02_Govardhan_Digumurthi */ = {
 			isa = PBXGroup;
 			children = (
+				4884B3E227CE8C0A00CB2C8D /* audio */,
 				48B3A5AF27CE766E00E27BC0 /* AppDelegate.swift */,
 				48B3A5B127CE766E00E27BC0 /* SceneDelegate.swift */,
 				48B3A5B327CE766E00E27BC0 /* ViewController.swift */,
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B3A5BC27CE766F00E27BC0 /* LaunchScreen.storyboard in Resources */,
+				4884B3E427CE8C3A00CB2C8D /* shuffling-cards-5.mp3 in Resources */,
 				48B3A5B927CE766F00E27BC0 /* Assets.xcassets in Resources */,
 				48B3A5B727CE766E00E27BC0 /* Main.storyboard in Resources */,
 			);
