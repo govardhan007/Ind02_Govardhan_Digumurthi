@@ -62,6 +62,7 @@ class ViewController: UIViewController {
         }else{
             player.play()
         }
+        shuffleSolvable()
         
     }
     
@@ -73,9 +74,7 @@ class ViewController: UIViewController {
         }; if sender.titleLabel?.text == "Hide Answer" {
             sender.setTitle("Show Answer", for: .normal)
             showingPreviousState()
-           
         }
-        
     }
     @IBAction func tapHandling(_ sender: UITapGestureRecognizer) {
         if(sender.view == img0 || sender.view == img1 || sender.view == img2 || sender.view == img3 || sender.view == img4 || sender.view == img5 || sender.view == img6 || sender.view == img7 || sender.view == img8 || sender.view == img9 || sender.view == img10 || sender.view == img11 || sender.view == img12 || sender.view == img13 || sender.view == img14 || sender.view == img15 || sender.view == img16 || sender.view == img17 || sender.view == img18 || sender.view == img19)
@@ -118,6 +117,15 @@ class ViewController: UIViewController {
             }
         }
         
+    }
+    func shuffleSolvable() {
+        images.shuffle()
+        let currImages = [img0, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19]
+        var temporary : CGPoint
+        for g in 0...19 {
+            temporary = images[g] as! CGPoint
+            currImages[g]?.center = temporary
+        }
     }
     
     
